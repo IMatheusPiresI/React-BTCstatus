@@ -15,6 +15,6 @@ export const useFormatFilter = (qtDays: number) => {
     
     const start_date = 
     `${date.getFullYear()}-${formatNumber(date.getMonth() + 1)}-${formatNumber(date.getDate())}`;
-    console.log(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${start_date}&end=${end_date}`)
+
     return `https://api.coindesk.com/v1/bpi/historical/close.json?start=${start_date}&end=${end_date}`;
 }

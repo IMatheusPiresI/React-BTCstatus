@@ -18,7 +18,7 @@ export function useOverwriteCategories(xaxis: string[]) {
     } else if (xaxis.length > 5){
         newXaxisFormat.push(first, getXaxisDivider(5), getXaxisDivider(3), getXaxisDivider(2), last)
     }
-    console.log(newXaxisFormat)
+
     return newXaxisFormat;
 }   
   
